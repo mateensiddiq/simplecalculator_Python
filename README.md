@@ -24,4 +24,15 @@ The program ensures **valid operator input**, prevents **division by zero**, and
 - **`add(num1, num2)`** – Adds two numbers and returns the result.  
 - **`sub(num1, num2)`** – Subtracts the second number from the first.  
 - **`mult(num1, num2)`** – Multiplies two numbers.  
-- *
+- **`div(num1, num2)`** – Divides the first number by the second (with zero-checking).  
+- **`get_opp()`** – Ensures the user enters a valid operator (`+, -, *, /`). If not, it keeps asking.  
+
+---
+
+## **Error Handling**  
+
+⚠️ **Invalid Operator Handling** – If the user enters something other than `+`, `-`, `*`, `/`, they are prompted again.  
+
+⚠️ **Division by Zero Prevention** – If the user tries to divide by zero, they get an error message:  
+`"Error: Division by 0 is undefined."`  
+
